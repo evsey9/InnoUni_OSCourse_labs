@@ -1,0 +1,1000 @@
+    2  ./server.sh 
+    3  ./server.sh run
+    4  cd ~
+    5  mkdir -p hagen_home
+    6  ./server.sh run
+    7  cd tmp/
+    8  ls
+    9  ./server.sh run
+   10  nano server.sh 
+   11  ./server.sh run
+   12  ping www.google.com
+   13  ./server.sh run
+   14  ./server.sh 
+   15  ./server.sh enter
+   16  ls
+   17  ./server.sh enter
+   18  git remote add origin git@gitlab.com:evseya_innopolisuniversity/y1t2/dsa/lab-6.git
+   19  echo ".idea/" > .gitignore
+   20  ls
+   21  git add .
+   22  git commit -m "Added mergesort solution code"
+   23  git add .
+   24  git remote add origin git@gitlab.com:evseya_innopolisuniversity/y1t2/dsa/lab-6.git
+   25  git commit -m "Added mergesort solution code"
+   26  git push -u origin main
+   27  git push
+   28  git push -u origin
+   29  git push -u origin master
+   30  cd /
+   31  ls
+   32  cd tmp
+   33  ls
+   34  cd ../
+   35  ls
+   36  cd ~
+   37  l
+   38  ls
+   39  l
+   40  ls
+   41  cd tmp
+   42  ls
+   43  run_server.sh
+   44  /run_server.sh
+   45  server.sh
+   46  ls
+   47  cd ../
+   48  ls\
+   49  ls
+   50  cd tmp
+   51  ls
+   52  cd multi_hagen_forklift/scripts/
+   53  ls
+   54  run_serve.sh
+   55  run_server.sh
+   56  ls
+   57  chmod +x run_server.sh 
+   58  run_server.h
+   59  chmod u+x run_server.sh 
+   60  run_server.sh
+   61  ls
+   62  run_server.sh
+   63  ./run_server.sh 
+   64  ./run_server.sh run
+   65  ls
+   66  cd ../
+   67  ls
+   68  cd ../
+   69  ls
+   70  ./server.sh 
+   71  ./server.sh run
+   72  ./server.sh enter
+   73  ./server.sh start
+   74  ./server.sh run
+   75  ./server.sh enter
+   76  ls
+   77  cd tmp
+   78  ls
+   79  cd multi_hagen_forklift/
+   80  ls
+   81  docker
+   82  docker stats
+   83  docker info
+   84  cd scripts
+   85  ./run_server.sh 
+   86  ./run_server.sh run
+   87  ls
+   88  ./run_server.sh enter
+   89  ./run_server.sh start
+   90  ./run_server.sh enter
+   91  git remote add origin git@gitlab.com:evseya_innopolisuniversity/y1t2/dsa/lab-7.git
+   92  cd Lab7
+   93  git remote add origin git@gitlab.com:evseya_innopolisuniversity/y1t2/dsa/lab-7.git
+   94  git commit -m "Initial commit"
+   95  git push -u origin
+   96  git push -u origin master
+   97  docker enter
+   98  docker
+   99  cd ~/MetraRobotics/
+  100  ls
+  101  cd multi_hagen_forklift/scripts/
+  102  ls
+  103  ./run_server.sh enter
+  104  ./run_server.sh start
+  105  ./run_server.sh enter
+  106  docker
+  107  docker rm hagen_node
+  108  ./run_server.sh stop
+  109  docker rm hagen_node
+  110  ./run_server.sh run
+  111  ./run_server.sh enter
+  112  ./run_server.sh stop
+  113  ./run_server.sh start
+  114  ./run_server.sh enter
+  115  cd MetraRobotics/multi_hagen_forklift/
+  116  ls
+  117  cd scritps
+  118  cd scrip
+  119  ./run_server.sh enter
+  120  ./run_server.sh start
+  121  ./run_server.sh enter
+  122  ./run_server.sh stop
+  123  ./run_server.sh start
+  124  ./run_server.sh enter
+  125  ./run_server.sh 
+  126  ./run_server.sh stop
+  127  docker
+  128  docker rm
+  129  docker rm hagen_node
+  130  ./run_server.sh run
+  131  ./run_server.sh enter
+  132  c++
+  133  gcc
+  134  g++
+  135  g++ -v
+  136  ls
+  137  cd InnopolisUniversity/
+  138  ls
+  139  cd Labs/
+  140  ls
+  141  cd Y1T2/
+  142  ls
+  143  cd SSAD/
+  144  ls
+  145  git clone git@gitlab.com:evseya_innopolisuniversity/y1t2/ssad/assignment-3.git
+  146  cd ~
+  147  ls
+  148  cd .ssh
+  149  cd SSAD/
+  150  cd ~/InnopolisUniversity/Labs/Y1T2/SSAD/
+  151  ls
+  152  git clone git@gitlab.com:evseya_innopolisuniversity/y1t2/ssad/assignment-3.git
+  153  g++ version
+  154  g++ --version
+  155  git remote add origin git@gitlab.com:evseya_innopolisuniversity/y1t2/dsa/lab-9.git
+  156  git commit -m "Initial commit"
+  157  git push -u
+  158  git push -u origin master
+  159  cd MetraRobotics/
+  160  ls
+  161  cd multi_hagen_forklift/scripts/
+  162  ls
+  163  cp run_server.sh ~/run_server.sh
+  164  ls
+  165  cd ~
+  166  ls
+  167  cat run_server.sh 
+  168  ./run_server.sh 
+  169  ./run_server.sh start
+  170  ./run_server.sh enter
+  171  rosnode list
+  172  ./run_server.sh enter
+  173  $DISPLAY
+  174  echo $DISPLAY
+  175  xhost +local:docker 
+  176  ./run_server.sh enter
+  177  ./run_server.sh start
+  178  ./run_server.sh enter
+  179  cat ./run_server.sh 
+  180  code
+  181  echo $ROSPATH
+  182  echo $ROS_PACKAGE_PATH
+  183  echo $ROS_ROOT
+  184  ./run_server.sh start
+  185  ./run_server.sh enter
+  186  git pull
+  187  git clone git@gitlab.com:evseya_innopolisuniversity/y1t2/tcs/assignment-2.git
+  188  git commit
+  189  git add fraud_detection.cpp 
+  190  git commit 
+  191  git diff
+  192  git
+  193  git pull
+  194  sudo apt-get install linux-tools-common linux-tools-generic
+  195  perf
+  196  cnf perf
+  197  sudo zypper install perf
+  198  git clone git@gitlab.com:evseya_innopolisuniversity/y1t2/ssad/team-assignment.git
+  199  ls
+  200  ./run_server.sh enter
+  201  ls
+  202  ./run_server.sh enter
+  203  ./run_server.sh start
+  204  ./run_server.sh enter
+  205  ls
+  206  ./run_server.sh 
+  207  ls
+  208  git clone https://github.com/GPrathap/ros_intro.git
+  209  ls
+  210  cd ros_intro/
+  211  ls
+  212  cd section00/
+  213  ls
+  214  notepadqq run_ros_node_cpu.sh 
+  215  chmod +x run_ros_node_cpu.sh 
+  216  ./run_ros_node_cpu.sh enter
+  217  ./run_ros_node_cpu.sh start
+  218  ./run_ros_node_cpu.sh run
+  219  ls
+  220  ./run_server.sh 
+  221  ./run_server.sh stop
+  222  s
+  223  ls
+  224  exit
+  225  ls
+  226  nano .bashrc 
+  227  nano run_server.sh 
+  228  sudo pip install unoserver
+  229  unoconvert Telegram\ Desktop/Программа.docx Программа.pdf
+  230  unoconvert
+  231  unoconvert Telegram\ Desktop/Программа.docx Программа.pdf
+  232  unoserver
+  233  git clone git@github.com:r-mol/Docx_To_Pdf.git
+  234  ./run_server.sh enter
+  235  ./run_server.sh enter
+  236  ./run_server.sh enter
+  237  ./run_server.sh enter
+  238  unoserver
+  239  ls
+  240  ./run_server.sh enter
+  241  ./run_server.sh start
+  242  ./run_server.sh enter
+  243  abiword
+  244  ls
+  245  cd PyCharmProjects/
+  246  ls
+  247  cd Docx_To_Pdf/
+  248  ls
+  249  git checkout origin/testing_Evsey 
+  250  ls
+  251  abiword --to=pdf
+  252  abiword --to=pdf "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" "Программа.docx" 
+  253  git checkout main
+  254  unoconvert "Пример аннотация таблица.docx"
+  255  unoconvert "Пример аннотация таблица.docx" "Пример аннотация таблица.pdf"
+  256  ps
+  257  ps -a
+  258  ps
+  259  ps -a
+  260  ps
+  261  ps -a
+  262  sudo ps -a
+  263  ps -a
+  264  ps
+  265  ps -h
+  266  kill 22646
+  267  pkill unoserver 
+  268  sudo pkill unoserver
+  269  ps -h
+  270  sudo pkill unoserver
+  271  pkill
+  272  pkill -h
+  273  pkill -e unoserver
+  274  pkill --sig 9 -e unoserver
+  275  pkill -f -e unoserver
+  276  kill -9 10468
+  277  pkill -f -e unoserver
+  278  ps -aux
+  279  pkill -f -e unoserver
+  280  pkill -e unoserver
+  281  python3
+  282  unoserver
+  283  python3
+  284  python doc_to_pdf.py 
+  285  python doc_to_pdf.py "a.docx"
+  286  python doc_to_pdf.py "Программа.docx" 
+  287  python doc_to_pdf.py "Программа.docx" "Пример аннотация таблица.docx"
+  288  python doc_to_pdf.py 
+  289  python doc_to_pdf.py "a"
+  290  python doc_to_pdf.py "test.pdf"
+  291  pkill unoserver 
+  292  cd /bin
+  293  ls
+  294  cat notepadqq
+  295  cat zypper
+  296  ls
+  297  cat oggdec
+  298  ls
+  299  cat nokogiri
+  300  cat notepadqq
+  301  unoconvert
+  302  unoconvert -h
+  303  pkill unoserver 
+  304  ls
+  305  cd ~/PyCharmProjects/Docx_To_Pdf/
+  306  unoconvert Программа.docx Программа.pdf
+  307  unoconvert Программа.docx Программа.pdf > /dev/null
+  308  unoconvert Программа.docx Программа.pdf > /dev/null 2>&1
+  309  ./doc_to_pdf 
+  310  python
+  311  ./doc_to_pdf 
+  312  ./doc_to_pdf a
+  313  ./doc_to_pdf a b c
+  314  ./doc_to_pdf /a
+  315  ../
+  316  cd ../
+  317  ./Docx_To_Pdf/doc_to_pdf 
+  318  ./Docx_To_Pdf/doc_to_pdf A
+  319  ./Docx_To_Pdf/doc_to_pdf *.pdf
+  320  ./Docx_To_Pdf/doc_to_pdf -h
+  321  ./Docx_To_Pdf/doc_to_pdf -h >> tmp
+  322  ls
+  323  ./Docx_To_Pdf/doc_to_pdf
+  324  ./Docx_To_Pdf/doc_to_pdf -h >> tmp
+  325  ./Docx_To_Pdf/doc_to_pdf
+  326  ./Docx_To_Pdf/doc_to_pdf tmp
+  327  ./Docx_To_Pdf/doc_to_pdf
+  328  ./Docx_To_Pdf/doc_to_pdf tmp
+  329  ./Docx_To_Pdf/doc_to_pdf tmpa
+  330  ./Docx_To_Pdf/doc_to_pdf tmp
+  331  ./Docx_To_Pdf/doc_to_pdf tmp tmp
+  332  cd Docx_To_Pdf/
+  333  ls
+  334  ./doc_to_pdf test.pdf venv
+  335  ./doc_to_pdf -p 3 test.pdf venv
+  336  ./doc_to_pdf --processes 3 test.pdf venv
+  337  ./doc_to_pdf --processes test.pdf venv
+  338  ./doc_to_pdf --processes 3 test.pdf venv
+  339  ./doc_to_pdf --processes 3 test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  340  ps
+  341  sudo ps
+  342  ps -a -h
+  343  ps -aux
+  344  kill unoserver
+  345  pkill unoserver
+  346  cd ../
+  347  ./Docx_To_Pdf/doc_to_pdf -h >> tmp
+  348  ./Docx_To_Pdf/doc_to_pdf 
+  349  cd Docx_To_Pdf/
+  350  ./doc_to_pdf --processes 3 test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  351  ./doc_to_pdf test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  352  unoconvert Программа.docx Программа.pdf
+  353  ./doc_to_pdf test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  354  unoconvert Программа.docx Программа.pdf
+  355  unoserver 
+  356  ./doc_to_pdf test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  357  ./doc_to_pdf -k test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  358  ./doc_to_pdf test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  359  ./doc_to_pdf -p 1 test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  360  ./doc_to_pdf -p 4 test.pdf "Программа.docx" "Пример аннотация таблица.docx" "Пример приказ.docx" "Пример приказ с текстом до конца.docx" 
+  361  ./doc_to_pdf *.docx
+  362  ./doc_to_pdf -o docx/ *.docx
+  363  ./doc_to_pdf -o docx *.docx
+  364  ./doc_to_pdf -o pdf/ *.docx
+  365  cd ../
+  366  cd PyCharmProjects/
+  367  cd Docx_To_Pdf/
+  368  ls
+  369  ./doc_to_pdf Untitled\ 1.xlsx 
+  370  ls
+  371  ./run_server.sh start
+  372  ./run_server.sh enter
+  373  ./run_server.sh enter
+  374  ./run_server.sh enter
+  375  ./run_server.sh enter
+  376  ./run_server.sh enter
+  377  sudo zypper get 
+  378  zypper help
+  379  sudo zypper install ros-noetic-driver-base*
+  380  sudo zypper install ros-melodic-driver-base*
+  381  ./run_server.sh enter
+  382  ls
+  383  cat ./run_server.sh 
+  384  xhost +local:docker
+  385  ls
+  386  ./run_server.sh enter
+  387  ./run_server.sh enter
+  388  git pull
+  389  git fetch origin pull/16/head:main
+  390  git checkout
+  391  git fetch origin pull/16/head:pr
+  392  git checkout pr
+  393  ls
+  394  ./scripts/create_venv 
+  395  pip install python3-venv
+  396  sudo zypper install python3-venv
+  397  sudo zypper install python-venv
+  398  ls
+  399  ./scripts/setup_environment 
+  400  sudo ./scripts/setup_environment 
+  401  pkill zypper
+  402  sudo ./scripts/setup_environment 
+  403  ls
+  404  cd .ssh
+  405  ls
+  406  cd ../
+  407  ls
+  408  ./run_server.sh enter
+  409  ./run_server.sh enter
+  410  ./run_server.sh start
+  411  ./run_server.sh enter
+  412  ./run_server.sh stop
+  413  ls
+  414  ./run_server.sh enter
+  415  ls
+  416  notepadqq run_server.sh 
+  417  ls
+  418  ./scripts/create_venv 
+  419  python3
+  420  python3-venv
+  421  zypper clean
+  422  sudo zypper clean
+  423  ./scripts/create_venv 
+  424  ls
+  425  rm -rf venv
+  426  rm -rf venv2
+  427  ./scripts/create_venv 
+  428  ls
+  429  sudo ./scripts/create_venv 
+  430  cd /
+  431  ls
+  432  rm -rf venv
+  433  sudo rm -rf venv
+  434  ls
+  435  cd ~
+  436  ls
+  437  cd PyCharmProjects/
+  438  ls
+  439  cd Docx_To_Pdf/
+  440  ls
+  441  cd scripts/
+  442  ls
+  443  cat create_venv 
+  444  cd ../
+  445  ls
+  446  ./docx_to_pdf 
+  447  ls
+  448  cat README.md 
+  449  ./docx_to_pdf Программа.docx 
+  450  ./scripts/create_venv 
+  451  ./scripts/create_venv venv
+  452  ls
+  453  cd venv
+  454  ls
+  455  cd ../
+  456  rm -rf venv/
+  457  ls
+  458  ./scripts/create_venv /
+  459  ls
+  460  ./scripts/create_venv .
+  461  ls
+  462  ls -a
+  463  cd .
+  464  ls
+  465  cd venv
+  466  ls
+  467  cd ../
+  468  ./docx_to_pdf Программа.docx 
+  469  ls
+  470  rm -rf pdf
+  471  ./docx_to_pdf Программа.docx 
+  472  cat docx_to_pdf 
+  473  ls
+  474  ls -a
+  475  sudo qdirstat
+  476  qdirstat
+  477  cd /usr/lib
+  478  ls
+  479  cd python3.8
+  480  ls
+  481  cd site-packages/
+  482  ls
+  483  cd uno
+  484  cat uno.py 
+  485  cd PyCh
+  486  cd PyCharmProjects/
+  487  cd Docx_To_Pdf/
+  488  ls
+  489  ./docx_to_pdf Пример\ приказ.docx 
+  490  ls
+  491  ./docx_to_pdf -h
+  492  ./docx_to_pdf -o pdf Пример\ приказ.docx 
+  493  rm -rf venv/
+  494  ls
+  495  ./docx_to_pdf -o pdf Пример\ приказ.docx 
+  496  ./docx_to_pdf -o pdf Программа.docx 
+  497  notepadqq docx_to_pdf 
+  498  ./docx_to_pdf -o pdf Программа.docx 
+  499  notepadqq docx_to_pdf 
+  500  ./docx_to_pdf -o pdf Программа.docx 
+  501  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.docx 
+  502  notepadqq docx_to_pdf 
+  503  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.docx 
+  504  notepadqq docx_to_pdf 
+  505  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.docx 
+  506  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.do
+  507  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.docx 
+  508  notepadqq docx_to_pdf 
+  509  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.docx 
+  510  ./docx_to_pdf -o pdf Программа.docx 
+  511  notepadqq docx_to_pdf 
+  512  cd /usr/lib
+  513  ls
+  514  pip list
+  515  cd PyCharmProjects/
+  516  ls
+  517  cd Docx_To_Pdf/
+  518  ls
+  519  git reset --hard
+  520  ls
+  521  git pull
+  522  git fetch
+  523  ls
+  524  git fetch origin pull/16/head:pr
+  525  git pull
+  526  git log
+  527  ls
+  528  cat ./scripts/create_venv 
+  529  git pull origin pull/16/head:pr
+  530  git log
+  531  ls
+  532  rm -rf venv
+  533  ls
+  534  ./docx_to_pdf -o pdf Программа.docx 
+  535  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.docx 
+  536  sudo zypper update
+  537  sudo zypper dup
+  538  cd PyCharmProjects/Docx_To_Pdf/
+  539  ls
+  540  rm -rf venv
+  541  ./docx_to_pdf -o pdf Программа.docx 
+  542  rm -rf venv
+  543  ./docx_to_pdf -o pdf Программа.docx 
+  544  rm -rf venv
+  545  ./docx_to_pdf -o pdf Программа.docx 
+  546  rm -rf venv
+  547  ./docx_to_pdf -o pdf Программа.docx 
+  548  rm -rf venv
+  549  ./docx_to_pdf -o pdf Пример\ аннотация\ таблица.docx 
+  550  ./run_server.sh enter
+  551  ./run_server.sh enter
+  552  ./run_server.sh enter
+  553  ./run_server.sh enter
+  554  ls
+  555  ./run_server.sh start
+  556  ./run_server.sh enter
+  557  cd PyCharmProjects/Docx_To_Pdf/
+  558  ls
+  559  git checkout 
+  560  git checkout main
+  561  ls
+  562  git pull
+  563  ls
+  564  git pull origin pull/16/head:pr
+  565  git fetch origin pull/17/head:pr
+  566  git checkout pr
+  567  ls
+  568  ./start_server 
+  569  ls
+  570  cd venv/
+  571  ls
+  572  ls -a
+  573  cd ../
+  574  ls
+  575  cat docx_to_pdf 
+  576  cd venv/
+  577  ls
+  578  cd bin/
+  579  ls
+  580  source activate
+  581  cd ../../
+  582  pip install Flask
+  583  pip3 install Flask
+  584  ls
+  585  exit
+  586  ps
+  587  cd PyCharmProjects/Docx_To_Pdf/
+  588  ls
+  589  ./docx_to_pdf -o pdf docxSmall/*.docx
+  590  ./docx_to_pdf -o pdf *.docx
+  591  ./docx_to_pdf -o pdf docxBase/*.docx
+  592  ./docx_to_pdf -o pdf docxTiny/*.docx
+  593  ./docx_to_pdf -o pdf docxSmall/*.docx
+  594  ./docx_to_pdf -o pdf docxMed/*.docx
+  595  ./docx_to_pdf -o pdf docxBig/*.docx
+  596  ./docx_to_pdf -p 1
+  597  ./docx_to_pdf -o pdf -p 1 docxBig/*.docx
+  598  ./docx_to_pdf -o pdf -p 4 docxBig/*.docx
+  599  ps
+  600  pkill unoserver 
+  601  ps
+  602  ./docx_to_pdf -o pdf -p 4 docxBig/*.docx
+  603  ps
+  604  pkill unoserver 
+  605  ./docx_to_pdf -o pdf -p 2 docxBig/*.docx
+  606  ./docx_to_pdf -o pdf -p 1 docxBig/*.docx
+  607  ./docx_to_pdf -o pdf -p 4 docxMed/*.docx
+  608  ./docx_to_pdf -o pdf -p 4 docxSmall/*.docx
+  609  ./docx_to_pdf -o pdf -p 4 docxBig/*.docx
+  610  ./docx_to_pdf -o pdf -p 4 docx/*.docx
+  611  ./docx_to_pdf -o pdf docx/*.docx
+  612  ./docx_to_pdf -o pdf docx/*.docx
+  613  pkill unoserver 
+  614  ./docx_to_pdf -o pdf docx/*.docx
+  615  pkill unoserver 
+  616  ./docx_to_pdf -o pdf docx/*.docx
+  617  pkill unoserver 
+  618  ./docx_to_pdf -o pdf docx/*.docx
+  619  pkill unoserver
+  620  ./docx_to_pdf -o pdf docx/*.docx
+  621  pkill unoserver
+  622  ./docx_to_pdf -o pdf docx/*.docx
+  623  pkill unoserver
+  624  ./docx_to_pdf -o pdf docx/*.docx
+  625  pkill unoserver
+  626  ./docx_to_pdf -o pdf docx/*.docx
+  627  pkill unoserver
+  628  ./docx_to_pdf -o pdf -p 1 docx/*.docx
+  629  pkill unoserver
+  630  ./docx_to_pdf -o pdf -p 1 docx/*.docx
+  631  pkill unoserver
+  632  ./docx_to_pdf -o pdf -p 1 docx/*.docx
+  633  pkill unoserver
+  634  ./docx_to_pdf -o pdf -p 8 docx/*.docx
+  635  ./docx_to_pdf -o pdf -p 1 docx/*.docx
+  636  pkill unoserver
+  637  ./docx_to_pdf -o pdf -p 8 docx/*.docx
+  638  ./docx_to_pdf -o pdf -p 4 docx/*.docx
+  639  pkill unoserver
+  640  ./docx_to_pdf -o pdf -p 4 docx/*.docx
+  641  pkill unoserver
+  642  ./docx_to_pdf -o pdf -p 16 docx/*.docx
+  643  pkill unoserver
+  644  ./docx_to_pdf -o pdf -p 16 docx/*.docx
+  645  pkill unoserver
+  646  ./docx_to_pdf -o pdf -p 16 docx/*.docx
+  647  ps
+  648  pkill unoserver
+  649  ./docx_to_pdf -o pdf docx/*.docx
+  650  pkill unoserver
+  651  ./docx_to_pdf -o pdf docxBig/*.docx
+  652  pkill unoserver
+  653  ./docx_to_pdf -o pdf docx/*.docx
+  654  pkill unoserver
+  655  ./docx_to_pdf -o pdf docx/*.docx
+  656  pkill unoserver
+  657  ./docx_to_pdf -o pdf docx/*.docx
+  658  ./docx_to_pdf -o pdf docxSmall/*.docx
+  659  ./docx_to_pdf -o pdf docxSmall/*.doc
+  660  ./docx_to_pdf -o pdf docxSmall/*.docx
+  661  ./docx_to_pdf -o pdf docx/*.docx
+  662  pkill unoserver
+  663  ./docx_to_pdf -o pdf docx/*.docx
+  664  pkill unoserver
+  665  ./docx_to_pdf -o pdf docx/*.docx
+  666  pkill unoserver 
+  667  ./docx_to_pdf -o pdf docx/*.docx
+  668  pkill unoserver 
+  669  ./docx_to_pdf fdfaff-kill -o pdf docx/*.docx
+  670  ./docx_to_pdf -k -o pdf docx/*.docx
+  671  rm -rf pdf
+  672  mkdir pdf
+  673  ./docx_to_pdf -k -o pdf docx/*.docx
+  674  rm -rf pdf
+  675  mkdir pdf
+  676  ./docx_to_pdf -k -o pdf -p 1 docx/*.docx
+  677  cd PyCharmProjects/
+  678  cd Docx_To_Pdf/
+  679  ./docx_to_pdf -k -o pdf docx/*.docx
+  680  rm -rf pdf
+  681  ls
+  682  mkdir pdf
+  683  ls
+  684  ./docx_to_pdf -k -p 16 -o pdf docx/*.docx
+  685  rm -rf pdf
+  686  mkdir pdf
+  687  ./docx_to_pdf -k -p 32 -o pdf docx/*.docx
+  688  rm -rf pdf
+  689  ./docx_to_pdf -k -o pdf docxLarge/*.docx
+  690  git pull
+  691  ls
+  692  rm -rf pdf
+  693  mkdir pdf
+  694  ./docx_to_pdf -k -o pdf docxLarge/*.docx
+  695  ./run_server.sh enter
+  696  ./run_server.sh start
+  697  ./run_server.sh enter
+  698  ./run_server.sh enter
+  699  ls
+  700  rm -rf pdf
+  701  mkdir pdf
+  702  ./docx_to_pdf -k -o pdf docxLarge/*.docx
+  703  ls
+  704  cd PyCharmProjects/Docx_To_Pdf/
+  705  ls
+  706  rm -rf pdf
+  707  ./docx_to_pdf -k -o pdf docxLarge/*.docx
+  708  rm -rf pdf
+  709  mkdir pdf
+  710  ./docx_to_pdf -k -o pdf docxLarge/*.docx
+  711  ./docx_to_pdf 
+  712  ./docx_to_pdf -k -ct unoserver -o pdf docxLarge/*.docx
+  713  ./docx_to_pdf -k -ct udsnoserver -o pdf docxLarge/*.docx
+  714  ./docx_to_pdf -k -ct udsnoserver -o pdf saadds.sa
+  715  ./docx_to_pdf -k -ct udsnoserver -o pdf requirements.txt
+  716  ./docx_to_pdf -k -ct udsnoserver -o pdf requirements.txt Untitled\ 1.xlsx
+  717  ls
+  718  tar xzvf apache-maven-3.8.6-bin.tar.gz 
+  719  ls
+  720  cd apache-maven-3.8.6/
+  721  ls
+  722  cd ../
+  723  ls
+  724  rm -r apache-maven-3.8.6
+  725  tar xzvf
+  726  tar --help
+  727  cd /opt
+  728  ls
+  729  tar xzvf ~/apache-maven-3.8.6-bin.tar.gz 
+  730  sudo tar xzvf ~/apache-maven-3.8.6-bin.tar.gz 
+  731  ls
+  732  export PATH=/opt/apache-maven-3.8.6/bin:$PATH
+  733  mvn
+  734  mvn -h
+  735  cd ~
+  736  ls
+  737  cd PyCharmProjects/
+  738  ls
+  739  cd Docx_To_Pdf/
+  740  ls
+  741  cd docx4j_conv/
+  742  mvn
+  743  ls
+  744  mvn verify
+  745  cd /etc/profile
+  746  ls
+  747  cd /etc/
+  748  ls
+  749  cat profile
+  750  sudo nano profile
+  751  ls
+  752  cd profile.d
+  753  ls
+  754  touch java_home.sh
+  755  sudo touch java_home.sh
+  756  ls
+  757  sudo nano java_home.sh 
+  758  bash -l
+  759  ls
+  760  $JAVA_HOME/
+  761  ./run_server.sh start
+  762  ./run_server.sh enter
+  763  java
+  764  java ./demo-1.0.jar
+  765  java ./demo-1.0.jar/Ap
+  766  cd PyCharmProjects/Docx_To_Pdf/
+  767  ls
+  768  ./docx_to_pdf test.docx 
+  769  ./docx_to_pdf Программа.docx 
+  770  ./docx_to_pdf Письмо\ сведения\ по\ запросу.docx 
+  771  rm -rf pdf
+  772  mkdir pdf
+  773  ./docx_to_pdf -o pdf docxExamples/*
+  774  git pull
+  775  ls
+  776  cd PyCharmProjects/
+  777  git pull
+  778  cd Docx_To_Pdf/
+  779  git pull
+  780  ./start_server 
+  781  ./docx_to_pdf -o pdf docx/*
+  782  rm -rf pdf
+  783  ./start_server 
+  784  ./docx_to_pdf -o pdf docx/*
+  785  ./run_server.sh start
+  786  ./run_server.sh enter
+  787  ls
+  788  cd PyCharmProjects
+  789  ls
+  790  cd Docx_To_Pdf/
+  791  ls
+  792  git pull
+  793  git status
+  794  git log
+  795  git config pull.rebase true
+  796  git pull
+  797  rm -rf pdf
+  798  mkdir pdf
+  799  ./docx_to_pdf М1\ Форма\ финансово-экономического\ обоснования.docx 
+  800  source venv/bin/activate
+  801  pip pinstall psutil
+  802  pip
+  803  exit
+  804  source venv/bin/activate
+  805  cd PyCharmProjects/Docx_To_Pdf/
+  806  ./docx_to_pdf М1\ Форма\ финансово-экономического\ обоснования.docx 
+  807  cat ./docx_to_pdf
+  808  rm -rf venv/
+  809  sudo rm -rf venv/
+  810  ./docx_to_pdf М1\ Форма\ финансово-экономического\ обоснования.docx 
+  811  clear 
+  812  ./docx_to_pdf -h
+  813  ./docx_to_pdf М1\ Форма\ финансово-экономического\ обоснования.docx 
+  814  ./docx_to_pdf -o pdf docxLarge/*
+  815  ./start_server 
+  816  clear
+  817  rm -rf pdf
+  818  mkdir pdf
+  819  ./docx_to_pdf 
+  820  ./docx_to_pdf -h
+  821  ./docx_to_pdf М1\ Форма\ финансово-экономического\ обоснования.docx 
+  822  ./docx_to_pdf -o pdf docxLarge/*
+  823  ./start_server 
+  824  ./run_server.sh enter
+  825  ls
+  826  ./run_server.sh start
+  827  ./run_server.sh enter
+  828  ./run_server.sh enter
+  829  ls
+  830  docker cp -r hagen_node:/inno_elec_ws/src/ros_intro/labs/homeworks/homework2 /home/aidenrockwell/buggy
+  831  docker cp hagen_node:/inno_elec_ws/src/ros_intro/labs/homeworks/homework2 /home/aidenrockwell/buggy
+  832  sudo docker ps
+  833  docker cp 639b004d5f52:/inno_elec_ws/src/ros_intro/labs/homeworks/homework2 /home/aidenrockwell/buggy
+  834  docker ps -alq
+  835  docker cp 639b004d5f52:~/inno_elec_ws/src/ros_intro/labs/homeworks/homework2 /home/aidenrockwell/buggy
+  836  docker cp 639b004d5f52:/home/developer/inno_elec_ws/src/ros_intro/labs/homeworks/homework2 /home/aidenrockwell/buggy
+  837  docker cp 639b004d5f52:/home/developer/inno_elec_ws/src/ros_intro/labs/homeworks/homework2/buggy /home/aidenrockwell/buggy
+  838  ./run_server.sh enter
+  839  ./run_server.sh enter
+  840  ./run_server.sh enter
+  841  ./run_server.sh enter
+  842  ./run_server.sh enter
+  843  cd PyCharmProjects/Docx_To_Pdf/
+  844  git pull
+  845  git fetch origin pull/41/head:pr
+  846  git checkout pr
+  847  ls
+  848  ./start_server 
+  849  git checkout main
+  850  git pull
+  851  git fetch origin pull/42/head:pr
+  852  git checkout pr
+  853  ls
+  854  ./start_server 
+  855  ./docx_to_pdf -o pdfUnique docxUnique/*
+  856  cd PyCharmProjects/Docx_To_Pdf/
+  857  ./start_server 
+  858  ./run_server.sh enter
+  859  ./run_server.sh enter
+  860  ./run_server.sh start
+  861  ls
+  862  ./run_server.sh enter
+  863  ./run_server.sh stop
+  864  ./run_server.sh start
+  865  ./run_server.sh enter
+  866  ./run_server.sh stop
+  867  ./run_server.sh start
+  868  ./run_server.sh enter
+  869  ls
+  870  cd PyCharmProjects/Docx_To_Pdf/
+  871  ls
+  872  git pull
+  873  git fetch
+  874  git branch list
+  875  git branch 
+  876  git 
+  877  git help branch
+  878  ./docx_to_pdf -o pdf docxLarge/*
+  879  ./run_server.sh start
+  880  ./start_server 
+  881  ./run_server.sh enter
+  882  ./run_server.sh start
+  883  ./run_server.sh enter
+  884  rqt
+  885  ./run_server.sh enter
+  886  rqt
+  887  ./run_server.sh enter
+  888  gpg --armor --export evseyru1@mail.ru > public_key_lin.txt
+  889  cd PyCharmProjects/
+  890  cd Docx_To_Pdf/
+  891  git 
+  892  git branch
+  893  git checkout main 
+  894  git pull
+  895  ./docx_to_pdf -h
+  896  git fetch origin pull/55/head:pr
+  897  git checkout pr
+  898  ./start_server 
+  899  git pull
+  900  git branch
+  901  git checkout main
+  902  git branch remove pr
+  903  git fetch origin pull/55/head:pr
+  904  git fetch origin -ff pull/55/head:pr
+  905  git branch
+  906  git checkout pr
+  907  ./start_server 
+  908  git merge main
+  909  ./start_server 
+  910  git checkout pr
+  911  git pull
+  912  git fetch
+  913  git pull
+  914  git fetch origin pull/55/head:pr
+  915  git checkout main
+  916  git fetch origin pull/55/head:pr
+  917  git fetch -ff origin pull/55/head:pr
+  918  git checkout pr
+  919  ./start_server 
+  920  cd ~
+  921  ls
+  922  ./run_server.sh start
+  923  ./run_server.sh enter
+  924  ./run_server.sh stop
+  925  ./run_server.sh start\
+  926  ./run_server.sh start
+  927  source .bashrc 
+  928  ./run_server.sh enter
+  929  ./run_server.sh stop
+  930  ./run_server.sh start
+  931  ./run_server.sh enter
+  932  ./run_server.sh stop
+  933  ./run_server.sh start
+  934  ./run_server.sh enter
+  935  ./run_server.sh start
+  936  ls
+  937  ./run_server.sh enter
+  938  ./run_server.sh stop
+  939  ./run_server.sh enter
+  940  ./run_server.sh start
+  941  ./run_server.sh enter
+  942  ./run_server.sh start
+  943  ./run_server.sh enter
+  944  ls
+  945  cd PyCharmProjects/
+  946  Docx_To_Pdf/
+  947  cd Docx_To_Pdf/
+  948  ./start_server 
+  949  ./run_server.sh enter
+  950  ./run_server.sh enter
+  951  ./run_server.sh start
+  952  ./run_server.sh enter
+  953  docker cp hagen_node:/home/developer/frames.pdf ~/frames.pdf
+  954  ./run_server.sh start
+  955  ./run_server.sh enter
+  956  ls
+  957  cd Downloads/
+  958  ls
+  959  cd Telegram\ Desktop/
+  960  ls
+  961  docker cp local_planner_indoor-master.zip hagen_node:/home/developer
+  962  cd ~
+  963  ls
+  964  ./run_server.sh entr
+  965  ./run_server.sh enter
+  966  source ./run_server.sh enter
+  967  exit
+  968  docker cp hagen_node:/home/developer/inno_elec_ws/src/labs/r2d2_slam/mapps/hector_slam_map_06:04:26.tif /home/aidenrockwell/ros_maps/1.tif
+  969  docker cp hagen_node:/home/developer/inno_elec_ws/src/labs/r2d2_slam/mapps/hector_slam_map_06:04:26.tif /home/aidenrockwell/1.tif
+  970  docker cp hagen_node:/home/developer/inno_elec_ws/src/labs/r2d2_slam/maps/hector_slam_map_06:04:26.tif /home/aidenrockwell/1.tif
+  971  docker cp hagen_node:/home/developer/inno_elec_ws/src/labs/r2d2_slam/maps/hector_slam_map_06:12:49.tif /home/aidenrockwell/2.tif
+  972  ./run_server.sh start
+  973  ./run_server.sh enter
+  974  ./run_server.sh start
+  975  ./run_server.sh enter
+  976  ./run_server.sh start
+  977  ./run_server.sh enter
+  978  ./run_server.sh start
+  979  ./run_server.sh enter
+  980  ls
+  981  cd /
+  982  ls
+  983  cd opt
+  984  ls
+  985  sudo rm -rf intelFPGA_lite/
+  986  sudo zypper install flatpak
+  987  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  988  sudo zypper install opi
+  989  opi codecs
+  990  sudo pip install requests
+  991  opi codecs
+  992  sudo pip install lxml
+  993  opi codecs
+  994  zypper ps -s
+  995  ls
+  996  openvpn --config vpn_germany.ovpn 
+  997  sudo openvpn --config vpn_germany.ovpn 
+  998  echo
+  999  echo
+ 1000  ls > /dev/null
+ 1001  history > ex2.txt
