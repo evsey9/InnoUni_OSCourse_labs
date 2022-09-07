@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
-#include <float.h>
 #define MAX_STRING_SIZE 256
 
 int main() {
