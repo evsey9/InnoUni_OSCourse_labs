@@ -3,12 +3,16 @@
 
 int main() {
 	char string[MAX_STRING_SIZE + 1];  // null terminator or newline
-	fgets(string, MAX_STRING_SIZE + 1, stdin);
 	char stringNew[MAX_STRING_SIZE + 1];
 	int lastCharIndex = 0;
-	for (lastCharIndex = 0; lastCharIndex < MAX_STRING_SIZE; lastCharIndex++) {
-		if (string[lastCharIndex] == '.' || string[lastCharIndex] == '\n')  // Find the last character
+	char curChar;
+	// Loop to read the string character-by-character
+	while (1) {
+		curChar = fgetc(stdin);
+		string[lastCharIndex] = curChar;
+		if (curChar == EOF || curChar == '.' || curChar == '\n')
 			break;
+		lastCharIndex++;
 	}
 	for (int i = 0; i < lastCharIndex; i++) {
 		stringNew[i] = string[lastCharIndex - 1 - i];
