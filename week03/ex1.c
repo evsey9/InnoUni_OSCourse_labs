@@ -28,7 +28,7 @@ int main(){
 	// Store the birth years in the same cells
 	for (int i = 0; i < 5; i++) {
 		*(int*)(p + i) = foo(*(int*)(p + i));
-		// printf("%d\n", *(int*)(p + i));  // optionally, print the birth year
+		printf("%d\n", *(int*)(p + i));  // optionally, print the birth year
 	}
 	free(p);
 	return EXIT_SUCCESS;
