@@ -12,3 +12,5 @@ add_executable(week2_ex4 week02/ex4.c)
 add_executable(week2_ex5 week02/ex5.c)
 
 add_executable(week3_ex1 week03/ex1.c)
+add_executable(week3_ex2 week03/ex2.c)
+target_link_libraries(week3_ex2 m)
