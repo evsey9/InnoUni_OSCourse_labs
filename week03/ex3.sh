@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc ex1.c -o ex1
-./ex1
+gcc ex3.c -o ex3
+./ex3
