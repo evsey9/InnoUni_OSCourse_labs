@@ -1,0 +1,5 @@
+For n=3, there a 8 processes in total (7 created.) However, for n=5, there are 32 processes in total (31 process created).
+This is because the total number of processes, in the end, will be 2^n.
+The reason for this is that after each fork, a new process is created which is in the state of being in the for loop that creates more forks.
+So, after the first fork, for n=3, there will be two processes, both of which will fork two times more. So then these two processes become four processes, and these four processes will have to fork again.
+So after each iteration, the number of processes doubles.
