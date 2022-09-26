@@ -9,6 +9,6 @@ int main(){
 		fork();
 	}
 	printf("My pid: %d Parent id: %d\n", getpid(), getppid());
-	printf("Execution time: %ld\n", clock());
+	printf("Execution time: %lf\n", ((double)clock()) / CLOCKS_PER_SEC * 1000);
 	return EXIT_SUCCESS;
 }
