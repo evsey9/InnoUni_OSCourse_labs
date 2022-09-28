@@ -21,3 +21,7 @@ add_executable(week4_ex1 week04/ex1.c)
 add_executable(week4_ex2 week04/ex2.c)
 add_executable(week4_ex3 week04/ex3.c)
 add_executable(week4_ex4 week04/ex4.c)
+
+add_executable(week5_ex1_1 week05/channel.c)
+add_executable(week5_ex1_2 week05/publisher.c)
+add_executable(week5_ex1_3 week05/subscriber.c)
