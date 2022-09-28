@@ -12,8 +12,8 @@ int main(){
 	char message[1024];
 	while (1) {
 		printf("Input message to send to subscribers: ");
-		fd = open(myFifo, O_WRONLY);
 		fgets(message, 1024, stdin);
+		fd = open(myFifo, O_WRONLY);
 		write(fd, message, strlen(message) + 1);
 		close(fd);
 		printf("Sent message.\n");
