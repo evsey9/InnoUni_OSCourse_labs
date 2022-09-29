@@ -10,4 +10,4 @@ do
   konsole -e ./subscriber &
 done
 
-./publisher
+./publisher "$1"

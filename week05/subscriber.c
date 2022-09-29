@@ -14,6 +14,7 @@ int main(){
 		read(fd, message, 1024);
 		close(fd);
 		printf("Received message: %s", message);
+		sleep(1);
 	}
 	return EXIT_SUCCESS;
 }

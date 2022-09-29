@@ -5,17 +5,24 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 
-int main(){
+int main(int argc, char *argv[]){
 	char* myFifo = "/tmp/ex2";
 	mkfifo(myFifo, 0666);
 	int fd;
 	char message[1024];
+	int subscriberCount;
+	if (argc < 2) {
+		return EXIT_FAILURE;
+	}
+	sscanf(argv[1], "%d", &subscriberCount);
 	while (1) {
-		printf("Input message to send to subscribers: ");
+		printf("Input message to send to %d subscribers: ", subscriberCount);
 		fgets(message, 1024, stdin);
-		fd = open(myFifo, O_WRONLY);
-		write(fd, message, strlen(message) + 1);
-		close(fd);
+		for (int i = 0; i < subscriberCount; i++) {
+			fd = open(myFifo, O_WRONLY);
+			write(fd, message, strlen(message) + 1);
+			close(fd);
+		}
 		printf("Sent message.\n");
 	}
 	return EXIT_SUCCESS;
