@@ -1,0 +1,5 @@
+At first, upon changing m within the region from 1 to 4, the execution time is almost halved each time.
+However, upon incrasing the number of the threads further, the program suffers a performance loss instead of a performance gain.
+This is in contrast to the solution of exercise 3, where the program always seemed to get a performance gain upon increasing the number of threads.
+This can be attributed to the fact that unlike exercise 3, here the threads all have some shared memory they both read and write to in the critical region of the program.
+The existence of said critical region means that the more threads there are, the more of them are gonna be blocked when they need to access the critical region at the same time, thus resulting in a performance loss with too many threads.
