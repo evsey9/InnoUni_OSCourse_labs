@@ -7,7 +7,7 @@ gcc subscriber.c -o subscriber
 
 for i in $(seq "$1")
 do
-  konsole -e ./subscriber &
+  konsole -e ./subscriber "$1" &
 done
 
 ./publisher "$1"

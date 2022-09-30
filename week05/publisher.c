@@ -20,8 +20,9 @@ int main(int argc, char *argv[]){
 		fgets(message, 1024, stdin);
 		for (int i = 0; i < subscriberCount; i++) {
 			fd = open(myFifo, O_WRONLY);
-			write(fd, message, strlen(message) + 1);
+			write(fd, message, 1024);
 			close(fd);
+			usleep(5 * 100 * 1000);  // sleep half a second for every subscriber
 		}
 		printf("Sent message.\n");
 	}
