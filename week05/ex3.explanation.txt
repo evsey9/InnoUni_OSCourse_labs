@@ -1,0 +1,3 @@
+At first, upon changing m within the region from 1 to 4, the execution time was almost halved each time, with the performance gains dropping off the higher the number of threads became.
+This can be explained by the fact that a processor with several cores can put a thread onto each core if there are not many threads.
+However, if there are too many threads present, then each processor core would have to run many threads at once, which would not provide any significant performance improvement.
