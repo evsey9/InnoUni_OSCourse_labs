@@ -28,3 +28,5 @@ add_executable(week5_ex1_3 week05/subscriber.c)
 add_executable(week5_ex2 week05/ex2.c)
 add_executable(week5_ex3 week05/ex3.c)
 add_executable(week5_ex4 week05/ex4.c)
+
+add_executable(week6_ex1 week06/ex1.c)
