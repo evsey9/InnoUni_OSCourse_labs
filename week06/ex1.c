@@ -78,6 +78,9 @@ int main(){
 	int curTime = 0;
 	while (first != NULL) {
 		struct Process* curProcess = first->thisProcess;
+		if (curTime < curProcess->arrivalTime) {
+			curTime = curProcess->arrivalTime;
+		}
 		curTime += curProcess->burstTime;
 		calculateMetrics(&procMetrics[curProcess->index], curProcess->arrivalTime, curProcess->burstTime, curTime);
 		struct ProcessQueueMember* curMem = first;
