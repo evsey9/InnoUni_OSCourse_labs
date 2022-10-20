@@ -1,0 +1,1 @@
+Using Shortest Job First instead of First Come First Serve improves the average turnaround and waiting times, as prioritizing shorter jobs means that less processes will have to wait for long than when, for example, a very long process gets queued at the same time as several short proceses, and thus the short processes all have to wait until the very long process is done.
