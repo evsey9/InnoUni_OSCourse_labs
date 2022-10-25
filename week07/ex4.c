@@ -3,14 +3,13 @@
 #include <time.h>    // time()
 #include <string.h>
 
-void* reallocCustom(void* ptr, size_t bytes) {
+void* reallocCustom(void* ptr, size_t bytes, size_t sizeOrig) {
 	// Our custom realloc function
 	if (bytes == 0) {
 		free(ptr);
 		return ptr;
 	} else {
 		void *newPtr = malloc(bytes);
-		size_t sizeOrig = ptr != NULL ? malloc_usable_size(ptr) : 0;
 		size_t initSize = bytes < sizeOrig ? bytes : sizeOrig;
 		memcpy(newPtr, ptr, initSize);
 		free(ptr);
@@ -43,7 +42,7 @@ int main(){
 	scanf("%d",&n2);
 
 	//Dynamically change the array to size n2 using our custom function
-	a1 = reallocCustom(a1, sizeof(int) * n2);
+	a1 = reallocCustom(a1, sizeof(int) * n2, sizeof(int) * n1);
 
 	//If the new array is a larger size, set all new members to 0. Reason: dont want to use uninitialized variables.
 
