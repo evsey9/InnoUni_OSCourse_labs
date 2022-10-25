@@ -10,9 +10,9 @@ void* reallocCustom(void* ptr, size_t bytes) {
 		return ptr;
 	} else {
 		void *newPtr = malloc(bytes);
-		size_t sizeOrig = ptr != NULL ? sizeof(ptr) : 0;
+		size_t sizeOrig = ptr != NULL ? malloc_usable_size(ptr) : 0;
 		size_t initSize = bytes < sizeOrig ? bytes : sizeOrig;
-		memcpy(newPtr, ptr, bytes);
+		memcpy(newPtr, ptr, initSize);
 		free(ptr);
 		return newPtr;
 	}
