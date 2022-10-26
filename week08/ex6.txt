@@ -1,0 +1,4 @@
+For an 8KB page, you would need 13 bits to specify the byte offset (0 to 8191).
+Then, that leaves us with 3 upper bits that could be used to specify one of the 8 virtual pages and the 13 lower bits could be used to specify the offset.
+This means that we would need 8 entries for the single-lever linear page table.
+Answer: 8
