@@ -10,7 +10,7 @@ union Bits {
 
 int main(int argc, char *argv[]) {
 	FILE *fp;
-	fp = fopen("input.txt", "r");
+	fp = fopen("Lab 09 input.txt", "r");
 	int count = 0;
 	char buff[8192];
 	fgets(buff, 8192, fp);
