@@ -1,0 +1,4 @@
+For an increased Hit/Miss ratio, lets take the sequence 1 2 3 4 1 2 3 1 2 3 2 3 2 3 4 3
+This will have a hit/miss ratio of 3 for as low as 4 page frames, since we introduce a set of pages at the beginning and then only use them, without introducing any other pages, thus having  the 4 misses only at the start.
+For a decreased Hit/Miss ratio, lets take the sequence 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+This will have a hit/miss ratio of 0.02 for 10 page frames, as we introduce up to 20 pages, but can store only the last 10 of them, and then we access the first ten again, swapping them into memory, and then the last 10 pages again, having a hit only at the beginning and getting only misses afterwards.
