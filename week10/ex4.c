@@ -14,6 +14,7 @@ int main() {
 	struct dirent* entry;
 	int fileCount = 0;
 	unsigned long processedInodes[1024];  // The inodes we have already counted as linked
+	char processedFileNames[1024][1024];  // Filenames
 	int processedCount = 0;  // How many inodes we have counted as linked
 	char fileNames[1024][1024];  // Filenames
 	unsigned long fileInodes[1024];  // Inodes of the corresponding filenames
@@ -25,26 +26,17 @@ int main() {
 		sprintf(strPath, "%s/%s", dirName, entry->d_name);
 		stat(strPath, &statResult);
 		if (statResult.st_nlink >= 2) {
-			// Check if we have already processed this inode or not
-			int alreadyProcessedFlag = 0;
-			for (int i = 0; i < processedCount; i++) {
-				if (entry->d_ino == processedInodes[i]) {
-					alreadyProcessedFlag = 1;
-					break;
-				}
-			}
-			if (!alreadyProcessedFlag) {
-				// Mark this inode in the array
-				processedInodes[processedCount] = entry->d_ino;
-				processedCount++;
-			}
+			// Mark this inode in the array
+			processedInodes[processedCount] = entry->d_ino;
+			strcpy(processedFileNames[processedCount], entry->d_name);
+			processedCount++;
 		}
 		fileCount++;
 	}
 	closedir(dirp);
 	for (int i = 0; i < processedCount; i++) {
 		char outStr[1024];
-		sprintf(outStr, "file%d - ", i + 1);
+		sprintf(outStr, "%s - ", processedFileNames[i]);
 		// Check what files have the same inode
 		for (int j = 0; j < fileCount; j++) {
 			if (fileInodes[j] == processedInodes[i]) {
