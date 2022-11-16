@@ -44,3 +44,5 @@ add_executable(week8_ex4 week08/ex4.c)
 add_executable(week9_ex1 week09/ex1.c)
 
 add_executable(week10_ex4 week10/ex4.c)
+
+add_executable(week11_ex2 week11/ex2.c)

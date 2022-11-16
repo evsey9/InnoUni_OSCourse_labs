@@ -1,0 +1,2 @@
+bin file2 lib64 ex2 file1 
+etc .snapshots boot home opt root srv tmp usr var dev proc sys run mnt .Trash-0 bin lib lib64 sbin 
